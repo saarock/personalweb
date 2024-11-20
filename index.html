@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Basnet | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aayush Basnet</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm a passionate full-stack developer, creating beautiful and functional web applications.</p>
+        <button>Get In Touch</button>
+    </section>
+
+    <section id="about" class="about">
+        <img src="./images/me2.jpg" alt="Aayush Basnet">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aayush, a full-stack developer with a passion for building scalable web applications.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <i class="fab fa-react"></i>
+            <i class="fab fa-node"></i>
+            <i class="fas fa-database"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-java"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fab fa-python"></i>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="./images/project1.png" alt="Project 1" height="300">
+                <h3>Advance todo app</h3>
+                <p>A web application that allows users manage routine, task and time.</p>
+                <a href="https://advance-personal-todo.vercel.app/" target="_blank">Visit</a>
+            </div>
+            <div class="project-card">
+                <img src="https://public-files.gumroad.com/n7vzekb6t2tku0fq5de9gjhra66d" alt="Project 2">
+                <h3>Javascript Notification libary</h3>
+                <p>Javascript notification libary system</p>
+                <a href="https://github.com/saarock/notty.js" target="_blank">Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="social-icons">
+            <a href="https://github.com/aayushbasnet" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aayushbasnet/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:saarock4646@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed and developed by <a href="https://codehons.com" target="_blank">codehons.com</a></p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
