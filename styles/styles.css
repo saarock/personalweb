@@ -25,6 +25,9 @@
         section {
             padding: 4rem 2rem;
         }
+        button {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
 
         /* Header */
         header {

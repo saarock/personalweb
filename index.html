@@ -30,7 +30,7 @@
         <section id="home" class="hero">
             <h2>Welcome to My Portfolio</h2>
             <p>I'm a passionate full-stack developer, creating beautiful and functional web applications.</p>
-            <button>Get In Touch</button>
+            <button onclick="subscribeChannel()">Subscibe My Channel</button>
         </section>
     
         <section id="about" class="about">
@@ -91,6 +91,11 @@
             const navLinks = document.querySelector('.nav-links');
             navLinks.classList.toggle('active');
         }
+
+        function subscribeChannel() {
+            window.location.href = "https://www.youtube.com/@coderaayush6539";
+        }
+
     </script>
 </body>
 </html>
