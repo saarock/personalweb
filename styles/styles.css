@@ -27,6 +27,14 @@
         }
         button {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .youtube-icon {
+            font-size: 1.8rem;
+            margin-right: 0.4rem;
         }
 
         /* Header */
