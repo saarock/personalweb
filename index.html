@@ -30,12 +30,16 @@
         <section id="home" class="hero">
             <h2>Welcome to My Portfolio</h2>
             <p>I'm a passionate full-stack developer, creating beautiful and functional web applications.</p>
-                <i class="fab fa-react"></i>
-            <button onclick="subscribeChannel()"> 
-              <span class="youtube-icon">
-                <i class="fab fa-youtube"></i>
-              </span>
-                Subscibe My Channel</button>
+              
+            <div class="hero_buttons">
+                <button onclick="subscribeChannel()"> 
+                    <span class="youtube-icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                      Subscibe My Channel</button>
+                      <button onclick="downloadMyCv()">Download my CV</button>
+            </div>
+      
         </section>
     
         <section id="about" class="about">
@@ -101,6 +105,13 @@
             window.location.href = "https://www.youtube.com/@coderaayush6539";
         }
 
+        function downloadMyCv() {
+            const element = document.createElement("a");
+            element.href = "./cv/mycv.pdf";
+            element.download = "./cv/mycv.pdf";
+            element.click();
+            document.body.removeChild(element);
+        }
     </script>
 </body>
 </html>

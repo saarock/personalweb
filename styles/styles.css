@@ -36,7 +36,12 @@
             font-size: 1.8rem;
             margin-right: 0.4rem;
         }
-
+        .hero_buttons {
+            z-index: 999;
+            display: flex;
+            gap: 1rem
+            ;
+        }
         /* Header */
         header {
             position: fixed;
@@ -338,5 +343,9 @@
 
             .project-card {
                 width: 100%;
+            }
+            .hero_buttons {
+                flex-direction: column;
+                gap: 0rem;
             }
         }
