@@ -188,7 +188,7 @@
 
         /* Skills Section */
         .skills {
-            background: #111;
+            background: linear-gradient(#6ef6ab1e ,#000000);
             text-align: center;
         }
 
@@ -255,6 +255,54 @@
         .project-card h3 {
             margin: 1rem 0;
             color: #00FF7F;
+        }
+        .notty_buttons {
+            display: flex;
+            gap: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.1rem;
+        }
+
+        .notty_buttons button {
+            border: none;
+            font-weight: 100;
+            padding: 0.4rem;
+            cursor: pointer;
+            transition: 0.5s linear;
+        }
+        .notty_buttons button:hover {
+            transform: scale(110%);
+        }
+        .notty_buttons button:active {
+            outline: 2px solid white;
+        }
+
+        .notty_buttons button:focus {
+            outline: 2px solid white;
+        }
+        .notty_buttons button:nth-child(1) {
+            background-color: green;
+            color: white;
+ 
+        }
+        .notty_buttons button:nth-child(2) {
+            background-color: yellow;
+            color: rgb(79, 54, 54);
+
+        }
+
+        .notty_buttons button:nth-child(3) {
+            background-color: red;
+            color: white;
+
+        }
+
+        .notty_buttons button:nth-child(4) {
+            background-color: blue;
+            color: white;
+        
         }
 
         /* Contact Section */

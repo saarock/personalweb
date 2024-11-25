@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/saarock/notty.js@main/src/styles/notty.css" />
 </head>
+
 <body>
     <header>
         <h1>Aayush Basnet</h1>
@@ -30,24 +33,24 @@
         <section id="home" class="hero">
             <h2>Welcome to My Portfolio</h2>
             <p>I'm a passionate full-stack developer, creating beautiful and functional web applications.</p>
-              
+
             <div class="hero_buttons">
-                <button onclick="subscribeChannel()"> 
+                <button onclick="subscribeChannel()">
                     <span class="youtube-icon">
-                      <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube"></i>
                     </span>
-                      Subscibe My Channel</button>
-                      <button onclick="downloadMyCv()">Download my CV</button>
+                    Subscibe My Channel</button>
+                <button onclick="downloadMyCv()">Download my CV</button>
             </div>
-      
+
         </section>
-    
+
         <section id="about" class="about">
             <img src="./images/me2.jpg" alt="Aayush Basnet">
             <h2>About Me</h2>
             <p>Hello! I'm Aayush, a full-stack developer with a passion for building scalable web applications.</p>
         </section>
-    
+
         <section id="skills" class="skills">
             <h2>Skills</h2>
             <div class="skill-icons">
@@ -60,7 +63,7 @@
                 <i class="fab fa-python"></i>
             </div>
         </section>
-    
+
         <section id="projects" class="projects">
             <h2>Projects</h2>
             <div class="project-grid">
@@ -74,22 +77,32 @@
                     <img src="https://public-files.gumroad.com/n7vzekb6t2tku0fq5de9gjhra66d" alt="Project 2">
                     <h3>Javascript Notification libary</h3>
                     <p>Javascript notification libary system</p>
-                    <a href="https://github.com/saarock/notty.js" target="_blank">Visit</a>
+                    <a href="https://github.com/saarock/notty.js" target="_blank">Visit</a> or
+                    <strong style="color: brown;">Try toast</strong>
+                    <div class="notty_buttons">
+
+                        <button class="success">Success</button>
+                        <button class="warning">Warning</button>
+                        <button class="error">Error</button>
+                        <button class="loading">Loading</button>
+                    </div>
+
                 </div>
             </div>
         </section>
-    
+
         <section id="contact" class="contact">
             <h2>Contact</h2>
             <div class="social-icons">
                 <a href="https://github.com/saarock" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/coder-aayush-885ab9267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/coder-aayush-885ab9267/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
                 <a href="mailto:saarock4646@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
-        </section> 
+        </section>
     </main>
 
-    
+
 
     <footer>
         <p>Designed and developed by <a href="https://www.instagram.com/saarock_basnet/" target="_blank">Saarock</a></p>
@@ -113,5 +126,10 @@
             document.body.removeChild(element);
         }
     </script>
+
+    <script type="module" src="./scripts/script.js">
+
+    </script>
 </body>
+
 </html>
