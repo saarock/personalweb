@@ -241,6 +241,12 @@
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease;
         }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0.3rem 1rem #00FF7F;
+
+        }
+
 
         .project-card:hover {
             transform: translateY(-10px);
@@ -391,6 +397,7 @@
             .project-card {
                 width: 100%;
             }
+            
             .hero_buttons {
                 flex-direction: column;
                 gap: 0rem;
