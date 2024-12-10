@@ -1,5 +1,4 @@
-
-import { notty } from "https://cdn.jsdelivr.net/gh/saarock/notty.js@main/dist/index.js";
+import { saarock } from "https://cdn.jsdelivr.net/gh/saarock/saarock.js@main/dist/index.js";
 
 const errorBtn =document.querySelector(".error");
 const successBtn = document.querySelector(".success");
@@ -8,13 +7,13 @@ const warningBtn = document.querySelector(".warning");
 
 
 errorBtn.onclick = () => {
-    notty.error({
+    saarock.error({
         message: "This is your error Message."
     });
 };
 
 successBtn.onclick = () => {
-    notty.success({
+    saarock.success({
         message: "This is your success Message.",
         comeFrom: "TOP",
         leaveFrom: "BOTTOM"
@@ -24,7 +23,7 @@ successBtn.onclick = () => {
 
 
 loadingBtn.onclick = () => {
-    notty.loading({
+    saarock.loading({
         message: "This is your loading Message.",
         position: "left",
     });
@@ -32,7 +31,7 @@ loadingBtn.onclick = () => {
 
 
 warningBtn.onclick = () => {
-    notty.warning({
+    saarock.warning({
         message: "This is your warning Message.",
         position: "middle",
         comeFrom: "BOTTOM",
